@@ -1,0 +1,67 @@
+.containeur{
+    width: 70%;
+    height: 150px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    /* margin:40px auto; */
+    margin-top: 250px;
+    margin-left: 250px;
+    align-items: center;
+    /* transform: translate(50% -50%); */
+}
+
+.enfant1{
+    width: 40%;
+    height: 300px;
+    /* background-color:blue; */
+}
+
+
+.enfant2{
+    width: 40%;
+    height: 300px;
+    /* background-color: yellow; */
+}
+
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.un{
+    margin:20px 20px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.deux{
+    margin:5px 20px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.trois{
+    margin: 20px 20px;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size:  15px;
+}
+
+input [type="text"]{
+    color: black;
+}
+
+.quatre{
+    margin: 20px 20px;
+    padding: 8px;
+    text-align: center;
+
+}
